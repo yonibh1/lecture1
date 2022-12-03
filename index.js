@@ -1,4 +1,4 @@
-var x = 97;
+var x = 67;
 //  +prompt("Enter a number", 97);
 
 var counter = 2;

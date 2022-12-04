@@ -1,6 +1,6 @@
-var x = 67;
-//  +prompt("Enter a number", 97);
+const prompt = require('prompt-sync')();
 
+const x = prompt('Enter a number to check: ');
 var counter = 2;
 var isPrime = true;
 while (counter <= x / 2 && isPrime) {
